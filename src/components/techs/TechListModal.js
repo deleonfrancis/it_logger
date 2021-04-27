@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import TechItem from "./TechItem";
 
 function TechListModal() {
   const [techs, setTechs] = useState([]);
@@ -24,7 +25,7 @@ function TechListModal() {
         <ul className="collection">
           {!loading &&
             techs.map((tech) => {
-              return <li className="collection-item">{tech.fistName}</li>;
+              return <TechItem tech={tech} key={tech.id} />
             })}
         </ul>
       </div>
