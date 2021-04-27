@@ -7,6 +7,7 @@ import SearchBar from "./components/layout/SearchBar";
 import Logs from "./components/log/Logs";
 import AddBtn from "./components/layout/AddBtn";
 import AddLogModal from "./components/log/AddLogModal";
+import EditLogModal from "./components/log/EditLogModal";
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
       <div className="container">
         <AddBtn />
         <AddLogModal />
+        <EditLogModal />
         <Logs />
       </div>
     </div>
