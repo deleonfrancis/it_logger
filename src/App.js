@@ -5,6 +5,8 @@ import M from "materialize-css/dist/js/materialize.min.js";
 import "./App.css";
 import SearchBar from "./components/layout/SearchBar";
 import Logs from "./components/log/Logs";
+import AddBtn from "./components/layout/AddBtn";
+import AddLogModal from "./components/log/AddLogModal";
 
 const App = () => {
   useEffect(() => {
@@ -15,6 +17,8 @@ const App = () => {
     <div className="App">
       <SearchBar />
       <div className="container">
+        <AddBtn />
+        <AddLogModal />
         <Logs />
       </div>
     </div>
