@@ -39,22 +39,22 @@
   "techs": [
     {
       "id": 1,
-      "fistName": "John",
+      "firstName": "John",
       "lastName": "Doe"
     },
     {
       "id": 2,
-      "fistName": "Sam",
+      "firstName": "Sam",
       "lastName": "Smith"
     },
     {
       "id": 3,
-      "fistName": "Sara",
+      "firstName": "Sara",
       "lastName": "Wilson"
     },
     {
-      "fistName": "Craig",
-      "lastName": "Doe",
+      "firstName": "Craig",
+      "lastName": "Carter",
       "id": 4
     }
   ]
