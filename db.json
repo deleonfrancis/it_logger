@@ -1,18 +1,39 @@
 {
   "logs": [
     {
-      "message": "changed network card on server 007",
+      "id": 3,
+      "message": "Fixed ***0785 hard drive sam smith",
       "attention": false,
       "tech": "John Doe",
-      "date": "2021-04-27T20:46:48.808Z",
-      "id": 1
+      "date": "2021-04-28T17:52:03.919Z"
     },
     {
-      "message": "Hard drive fail at 002",
+      "message": "network card on server 876",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-04-28T16:35:39.678Z",
+      "id": 4
+    },
+    {
+      "message": "0785 hard drive sam smith",
       "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2021-04-27T20:47:27.201Z",
-      "id": 2
+      "tech": "Sam Smith",
+      "date": "2021-04-28T16:35:28.027Z",
+      "id": 5
+    },
+    {
+      "message": "network card on server 876",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-04-28T16:35:39.678Z",
+      "id": 6
+    },
+    {
+      "message": "0785 hard drive sam smith",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-04-28T16:35:28.027Z",
+      "id": 7
     }
   ],
   "techs": [
